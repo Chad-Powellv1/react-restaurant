@@ -2,6 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import cafe from './assets/cafe.png';
+import { Outlet } from 'react-router-dom';
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
             </Navbar.Collapse>
         </Container>
       </Navbar>
+      <Outlet />
     </div>
   );
 };
