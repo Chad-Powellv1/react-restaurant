@@ -8,15 +8,14 @@ import About from './routes/About';
 import Contact from './routes/Contact';
 
 
-
-
 render(
   <BrowserRouter>
     <Routes>
-      <Route path='/' element={<App />}></Route>
-      {/* <Route path='menu' element={<Menu />}></Route>
-      <Route path='about' element={<About />}></Route>
-      <Route path='contact' element={<Contact />}></Route> */}
+      <Route path='/' element={<App />}>
+      <Route path='menu' element={<Menu />} />
+      <Route path='about' element={<About />} />
+      <Route path='contact' element={<Contact />} />
+      </Route>
     </Routes>
   </BrowserRouter>,
   document.getElementById('root')
