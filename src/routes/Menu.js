@@ -11,7 +11,9 @@ export default function Menu() {
 			getData(url)
       .then(data => {
 					setMenuItems(data);
-			});
+			})
+
+	   
 	},[]);
 
 	return (
