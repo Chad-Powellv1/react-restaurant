@@ -29,7 +29,6 @@ export default function Special() {
 					.map(menuItem => (
 						<Specials key={menuItem.id} menuItem={menuItem} />
 					))}
-				{console.log(menuItems)}
 			</div>
 		</main>
 		</Layout>	

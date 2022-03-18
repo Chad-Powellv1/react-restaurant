@@ -5,14 +5,31 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url('/src/assets/background.jpg');
+  background-image: url('/src/assets/background1.jpg');
   height: 100%; 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
+}
+
+.img {
+  opacity: 0.2;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  right:0;
+  left:0;
+  bottom: 0;
+  background-color: black;
+  opacity: .6;
+  z-index: -1;
+
 }
