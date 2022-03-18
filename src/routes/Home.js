@@ -7,8 +7,8 @@ export default function HOME() {
 	return (
       <Layout>
 			<div className='container mt-5'>
-				<div className='row mt-5 pt-5'>
-					<h1 className='display-1 text-center text-danger text-decoration-underline fw-bold mt-5'>
+				<div className='row'>
+					<h1 className='display-1 text-center text-danger text-decoration-underline fw-bold mt-3'>
 						Awesome Thyme Cafe
 					</h1>
 					<br />
