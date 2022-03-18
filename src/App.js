@@ -2,7 +2,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import cafe from './assets/cafe.png';
-import { Outlet } from 'react-router-dom';
 
 export default function App({children}) {
   return (
@@ -15,7 +14,7 @@ export default function App({children}) {
             <Nav className="mx-auto text-center mt-2 ps-5 mt-5 pt-4 fs-4">
                 <Nav.Link href='/' className="px-5 fs-2 fw-bold text-dark">Home</Nav.Link>
                 <Nav.Link href='menu' className="px-5 fs-2 fw-bold text-dark">Menu</Nav.Link>
-                <Nav.Link href="about" className="px-5 fs-2 fw-bold text-dark">About</Nav.Link>
+                <Nav.Link href="specials" className="px-5 fs-2 fw-bold text-dark">Specials</Nav.Link>
                 <Nav.Link href='contact' className="px-5 fs-2 fw-bold text-dark">Contact</Nav.Link>
             </Nav>
             </Navbar.Collapse>
