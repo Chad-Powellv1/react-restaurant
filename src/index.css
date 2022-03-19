@@ -7,15 +7,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-image: url('/src/assets/background1.jpg');
   height: 100%; 
-  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 
-.img {
-  opacity: 0.2;
-}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
