@@ -8,6 +8,7 @@ export default function App({children}) {
     <div className="App">
       <Navbar expand="lg">
         <Container className='container-fluid mb-5'>
+
             <Navbar.Brand href="/" className='navbarBrand d-none d-lg-block  position-absolute top-0 start-0 ps-5 mt-2'><img src={cafe} alt="Cafe Logo" width= '300' /></Navbar.Brand>
             <Navbar.Toggle className='custom-toggler' aria-controls="basic-navbar-nav"  />
             <Navbar.Collapse id="basic-navbar-nav text-start">
