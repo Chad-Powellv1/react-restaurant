@@ -6,17 +6,17 @@ import './home.css'
 export default function HOME() {
 	return (
 		<Layout>
-			<div className='container mt-5'>
-				<div className='row mt-5'>
-					<h1 className='display-1 text-center text-danger fw-bold mt-5'>
+			<div className='container'>
+				<div className='row'>
+					<h1 className='display-1 text-center text-danger fw-bold'>
 						Awesome Thyme Cafe
 					</h1>
 					<br />
-					<h3 className='subtitle display-6 mt-5 text-center text-light mb-5'>
+					<h3 className='subtitle display-6 text-center text-light'>
 						Open Daily for Dine-in & Carry-out
 					</h3>
-					<div className='d-flex justify-content-center mt-5 pt-5'>
-						<h4 className='mt-5 fs-3 mb-4 text-light'>
+					<div className='d-flex justify-content-center pt-5'>
+						<h4 className='fs-3 text-light'>
 							Hours 10am to 3pm, Daily
 						</h4>
 					</div>
